@@ -2,7 +2,6 @@
   --color-primary: #031b4e;
   --color-secondary: #e5e8ed;
   --color-accent-link: #0061eb;
-  --color-emerald: #046a38;
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -43,7 +42,7 @@ body {
   padding: 0.65rem 1rem;
   background: var(--color-primary);
   color: var(--color-secondary);
-  border-bottom: 3px solid var(--color-emerald);
+  border-bottom: 1px solid rgba(229, 232, 237, 0.22);
 }
 
 .chrome__title {
