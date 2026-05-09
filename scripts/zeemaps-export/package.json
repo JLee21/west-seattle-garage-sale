@@ -1,0 +1,21 @@
+{
+  "name": "zeemaps-export",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "export": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "p-limit": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
