@@ -1,5 +1,5 @@
 name: west-seattle-garage-sale
 static_sites:
-  - name: west-seattle-garage-sale
+  - name: site
     environment_slug: html
     source_dir: /
