@@ -3,31 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>West Seattle Garage Sale 2026</title>
+  <title>Seattle Garage Sale 2026</title>
   <link rel="stylesheet" href="/styles.css">
   <link rel="icon" href="/favicon.ico" sizes="any">
 </head>
-<body>
-  <header class="site-header">
-    <div class="site-header__inner">
-      <h1 class="site-title">West Seattle Garage Sale 2026</h1>
-      <p class="site-tagline">Community treasure hunt across West Seattle — maps, tips, and neighborhood finds.</p>
-    </div>
+<body class="app">
+  <header class="chrome" aria-label="Site">
+    <h1 class="chrome__title">Seattle garage sale 2026</h1>
+    <a
+      class="chrome__link"
+      href="https://westseattleblog.com/wsgaragesaledaymap/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Garage sale day map</a>
   </header>
-  <main class="site-main">
-    <section class="intro" aria-labelledby="intro-heading">
-      <h2 id="intro-heading">Welcome</h2>
-      <p>
-        Use the chat widget to ask about this year’s sale weekend, routes, and how to make the most of your West Seattle garage-sale day.
-      </p>
-    </section>
-  </main>
+  <div id="chat-root" class="chat-root" aria-label="Chat assistant"></div>
   <script
-    async
     src="https://bgpayzm5ufee5tmovb3nipvp.agents.do-ai-test.run/static/chatbot/widget.js"
+    data-render-target-id="chat-root"
     data-agent-id="d3dae990-4b49-11f1-9439-ca68c578b04b"
     data-chatbot-id="ocfQGfhovraWfPGk1RVIHdN44OKZrUXa"
-    data-name="west-seattle-garage-sale-2026 Chatbot"
+    data-name="Seattle Garage Sale 2026"
     data-primary-color="#031B4E"
     data-secondary-color="#E5E8ED"
     data-button-background-color="#0061EB"
